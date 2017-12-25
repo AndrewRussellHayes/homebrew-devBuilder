@@ -1,12 +1,13 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook.html
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 
-class DevBuilder < Formula
+class Devbuilder < Formula
   desc "build a dev environment"
   homepage "https://github.com/AndrewRussellHayes/devBuilder"
 
-	url "https://github.com/AndrewRussellHayes/devBuilder/archive/v0.0.1.tar.gz"
+	#url "https://github.com/AndrewRussellHayes/devBuilder/archive/v0.0.1.tar.gz"
 #  url "https://github.com/AndrewRussellHayes/devBuilder/raw/master/archive/devBuilder-0.0.1.tar.gz"
+url "https://github.com/AndrewRussellHayes/devBuilder/releases/download/v0.0.1/devbuilder"
 
   version "0.0.1"
   #sha256 "TODO: shasum -a 256 name-of-your-file | awk '{printf $1}' || pbcopy"
@@ -20,7 +21,7 @@ class DevBuilder < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
 		#
-		bin.install "devBuilder"
+		bin.install "devbuilder"
 		#
 
     # Remove unrecognized options if warned by configure
