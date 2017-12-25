@@ -8,6 +8,7 @@ class Devbuilder < Formula
 	sha256 "f7d3f72d97f5cb85b4ff328b33e1d7fcbe2974de87558ae9981bab2de9afb4f6"
 
   def install
+		bin.install "devbuilder"
   end
 
   test do
