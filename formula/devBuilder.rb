@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook.html
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 
-class DevBuilderCom < Formula
+class DevBuilder < Formula
   desc "build a dev environment"
   homepage "https://github.com/AndrewRussellHayes/devBuilder"
 
