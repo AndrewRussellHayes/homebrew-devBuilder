@@ -1,4 +1,4 @@
-class DevbuilderAT3 < Formula
+class Devbuilder3 < Formula
   desc "build a dev environment"
   homepage "https://github.com/AndrewRussellHayes/devBuilder"
 
