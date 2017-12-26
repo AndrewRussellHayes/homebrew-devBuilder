@@ -13,6 +13,10 @@ class Devbuilder < Formula
     version "0.0.2"
 		url "https://github.com/AndrewRussellHayes/devBuilder/releases/download/v0.0.2/devbuilder"
 		sha256 "8918bf831445c8630ab26009f05da4e2fa4800351941cd7348039671f862b83e"
+
+    version "0.0.3"
+		url "https://github.com/AndrewRussellHayes/devBuilder/releases/download/v0.0.3/devbuilder"
+		sha256 "8918bf831445c8630ab26009f05da4e2fa4800351941cd7348039671f862b83e"
 		
 	end
 
